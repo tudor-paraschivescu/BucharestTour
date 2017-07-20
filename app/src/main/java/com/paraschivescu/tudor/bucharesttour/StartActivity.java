@@ -1,16 +1,19 @@
 package com.paraschivescu.tudor.bucharesttour;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class StartActivity extends AppCompatActivity {
 
     private static final int NUMBER_OF_CARDS = 4;
 
+    // The IDs of the cards on the start screen
     private int[] listIds = {R.id.card_tourist_attractions, R.id.card_coffee_tee,
             R.id.card_restaurants, R.id.card_pubs_bars};
+
+    // The classes of all the listing activities
     private Class[] activities = {TouristAttractions.class, CoffeeTea.class,
             Restaurants.class, PubsBars.class};
 

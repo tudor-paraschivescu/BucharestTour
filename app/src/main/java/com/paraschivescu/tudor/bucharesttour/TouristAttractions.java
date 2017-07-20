@@ -42,8 +42,10 @@ public class TouristAttractions extends AppCompatActivity {
                 R.string.address_coltea_hospital,
                 R.string.website_coltea_hospital));
 
+        // Adapter for the populated array list
         LocationAdapter locationAdapter = new LocationAdapter(this, touristAttractions);
 
+        // Set the adapter to the list view
         ListView listView = (ListView) findViewById(R.id.list_tourist_attractions);
         listView.setAdapter(locationAdapter);
     }

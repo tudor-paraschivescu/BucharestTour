@@ -15,9 +15,8 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by tudor on 20/07/2017.
+ * Custom adapter for the Location class
  */
-
 class LocationAdapter extends ArrayAdapter<Location> {
 
     LocationAdapter(@NonNull Context context, @NonNull List<Location> objects) {
@@ -33,23 +32,29 @@ class LocationAdapter extends ArrayAdapter<Location> {
     public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         View listItemView = convertView;
+        // Inflate the view if it does not exist
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
+        // Get the location placed at that position
         final Location location = getItem(position);
 
+        // Set the image of the card
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.list_image);
         assert location != null;
         imageView.setImageResource(location.getImageResourceId());
 
+        // Set the name of the location
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.list_name);
         nameTextView.setText(getStringFromResource(location.getResName()));
 
+        // Set the address of the location
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.list_address);
         addressTextView.setText(getStringFromResource(location.getResAddress()));
 
+        // Add a listener to the website button
         final Button websiteButton = (Button) listItemView.findViewById(R.id.list_website);
         websiteButton.setOnClickListener(new View.OnClickListener() {
             @Override

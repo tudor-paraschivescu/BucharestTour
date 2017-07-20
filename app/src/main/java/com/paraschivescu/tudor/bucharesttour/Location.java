@@ -1,9 +1,8 @@
 package com.paraschivescu.tudor.bucharesttour;
 
 /**
- * Created by tudor on 20/07/2017.
+ * Class of a location that stores resource IDs for an image, a name, an address and a website
  */
-
 class Location {
 
     private int mImageResourceId;
