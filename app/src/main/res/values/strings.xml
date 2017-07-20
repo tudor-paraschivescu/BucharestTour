@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BucharestTour</string>
+    <string name="description_image">General image of a list</string>
+    <string name="pubs_bars">Pubs and Bars</string>
+    <string name="coffee_tea"><![CDATA[Coffee & Tea]]></string>
+    <string name="restaurants">Restaurants</string>
+    <string name="tourist_attractions">Tourist Attractions</string>
+    <string name="tourist_attractions_cover_photo">Tourist Attractions cover photo</string>
+    <string name="coffee_tea_cover_photo">Coffee Tea cover photo</string>
+    <string name="restaurants_cover_photo">Restaurants cover photo</string>
+    <string name="pubs_bars_cover_photo">Pubs bars cover photo</string>
+</resources>
