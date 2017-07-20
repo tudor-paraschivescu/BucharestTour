@@ -9,4 +9,24 @@
     <string name="coffee_tea_cover_photo">Coffee Tea cover photo</string>
     <string name="restaurants_cover_photo">Restaurants cover photo</string>
     <string name="pubs_bars_cover_photo">Pubs bars cover photo</string>
+    <string name="image_of_a_list_item">Image of a list item</string>
+    <string name="address">Address</string>
+    <string name="location_name">Location Name</string>
+    <string name="website">website</string>
+    <string name="touristic_attractions_palace_of_parliament">Palace of Parliament</string>
+    <string name="touristic_attractions_romanian_athenaeum">Romanian Athenaeum</string>
+    <string name="touristic_attractions_triumph_arch">Triumph Arch</string>
+    <string name="touristic_attractions_grigore_antipa_national_museum">Grigore Antipa National Museum of Natural History</string>
+    <string name="touristic_attractions_coltea_hospital">Colțea Hospital</string>
+    <string name="address_palace_of_parliament">Izvor Street 2–4</string>
+    <string name="address_romanian_athenaeum">Benjamin Franklin Street 1–3</string>
+    <string name="address_triumph_arch">Arcul de Triumf Plaza</string>
+    <string name="address_grigore_antipa_national_museum">Kiseleff Avenue 1</string>
+    <string name="address_coltea_hospital">Ion C. Brătianu Avenue 1</string>
+    <string name="website_palace_of_parliament">http://cic.cdep.ro/ro</string>
+    <string name="website_romanian_athenaeum">http://fge.org.ro/en/romanian-atheneum.html</string>
+    <string name="website_triumph_arch">http://en.wikipedia.org/wiki/Arcul_de_Triumf</string>
+    <string name="website_grigore_antipa_national_museum">http://antipa.ro/ro</string>
+    <string name="website_coltea_hospital">http://www.coltea.ro/</string>
+
 </resources>
